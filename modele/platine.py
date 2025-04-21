@@ -5,7 +5,7 @@ class Platine:
     def __init__(self):
         self.bouton_demarrer = Button(26)
         self.bouton_mesure = Button(19)
-        self.capteur = DistanceSesonsor(echo=17, trigger=14, max_distance=2.0)
+        self.capteur = DistanceSensor(echo=17, trigger=14, max_distance=2.0)
         ADC0832.setup()
 
     def lire_distance(self):
