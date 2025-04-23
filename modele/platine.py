@@ -8,7 +8,7 @@ class Platine:
         self.capteur = DistanceSensor(echo=17, trigger=4)  #Capteur de distance
  
         self.adc = ADS7830() #Convertissuer (ADC)
-        if not self.adc.detectI2C(0x4b): 
+        if not self.adc.detectI2C(0x4b):
             print("Vérifie la connexion I2C.")
  
     def lire_distance(self):
@@ -21,7 +21,7 @@ class Platine:
         valeur = self.adc.analogRead(0) #Resultat entre 0 et 255
         return round((valeur / 255.0) * 100, 2) #Conversion en porucentage (0-100%)
  
-
+ 
     #Retourne true si le bouton start est enfonce
     def est_bouton_start_enfonce(self):
         return self.bouton_demarrer.is_pressed
@@ -29,3 +29,4 @@ class Platine:
     #Retourne true si le bouton mesure est enfonce
     def est_bouton_mesure_enfonce(self):
         return self.bouton_mesure.is_pressed
+ 

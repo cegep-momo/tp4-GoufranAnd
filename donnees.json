@@ -1,0 +1,62 @@
+[
+    {
+        "date": "2025-04-23 13:45:47",
+        "distance_cm": 1.12,
+        "potentiometre_val": 77.65
+    },
+    {
+        "date": "2025-04-23 13:45:52",
+        "distance_cm": 1.38,
+        "potentiometre_val": 52.16
+    },
+    {
+        "date": "2025-04-23 13:45:57",
+        "distance_cm": 0.87,
+        "potentiometre_val": 96.47
+    },
+    {
+        "date": "2025-04-23 15:00:05",
+        "distance_cm": 1.5,
+        "potentiometre_val": 96.47
+    },
+    {
+        "date": "2025-04-23 15:00:10",
+        "distance_cm": 1.36,
+        "potentiometre_val": 73.33
+    },
+    {
+        "date": "2025-04-23 15:00:15",
+        "distance_cm": 1.28,
+        "potentiometre_val": 54.12
+    },
+    {
+        "date": "2025-04-23 15:00:20",
+        "distance_cm": 1.37,
+        "potentiometre_val": 54.12
+    },
+    {
+        "date": "2025-04-23 15:00:25",
+        "distance_cm": 1.28,
+        "potentiometre_val": 54.12
+    },
+    {
+        "date": "2025-04-23 15:00:31",
+        "distance_cm": 1.31,
+        "potentiometre_val": 54.12
+    },
+    {
+        "date": "2025-04-23 15:00:59",
+        "distance_cm": 1.45,
+        "potentiometre_val": 54.12
+    },
+    {
+        "date": "2025-04-23 15:01:04",
+        "distance_cm": 1.8,
+        "potentiometre_val": 54.51
+    },
+    {
+        "date": "2025-04-23 15:01:09",
+        "distance_cm": 1.33,
+        "potentiometre_val": 98.82
+    }
+]
