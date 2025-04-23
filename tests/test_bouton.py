@@ -15,4 +15,11 @@ class TestBouton(unittest.TestCase):
         self.assertIsInstance(self.bouton, Button)
 
     
-        
+    def test_bouton_enfonce(self):
+        #Simule l'enfoncement du bouton
+        self.bouton.pin.drive_low()
+        self.assertTrue(self.bouton.is_pressed)
+
+        #Simule le relachement du bouton
+        self.bouton.pin.drive_high()
+        self.assertFalse(self.bouton.is_pressed)
