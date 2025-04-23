@@ -18,10 +18,13 @@ class VueLCD:
         self.afficher_message(f"Mesure prise: {valeur:.1f} cm")
 
     def afficher_demarrage(self):
-        self.afficher_message("Demarrage...")
+        self.afficher_message("Demarrage fait", "Appuyez Mesurer")
         time.sleep(2)
 
     def afficher_arret(self):
-        self.afficher_message("Arret...")
+        self.afficher_message("Arret fait")
         time.sleep(2)
         LCD1602.clear()
+
+    def afficher_distance_et_pot(self, distance_cm, pourcentage):
+        self.afficher_message(f"Dist: {distance_cm:.1f}cm", f"Pot: {pourcentage:.1f}%")
